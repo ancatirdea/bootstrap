@@ -75,8 +75,10 @@
       if (!data) $this.data('alert', (data = new Alert(this)))
       if (typeof option == 'string') data[option].call($this)
     })
+  
   }
 
+  
   $.fn.alert.Constructor = Alert
 
 
