@@ -9,7 +9,7 @@
  */
 
 article,
-aside,
+Œ“aside,
 details,
 figcaption,
 figure,
@@ -48,6 +48,8 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+  -webkit-box-reflect: bottom 1px
+  -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.4, transparent), to(white));  
 }
 
 sub,
